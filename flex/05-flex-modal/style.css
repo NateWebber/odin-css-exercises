@@ -21,6 +21,23 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 8px;
+  display: flex;
+  gap: 8px;
+}
+
+.header{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.text{
+  margin-bottom: 8px;
+}
+
+.header-container{
+  display: flex;
+  justify-content: space-between;
 }
 
 .icon {
